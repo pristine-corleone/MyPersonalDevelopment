@@ -6,3 +6,17 @@ A Git project can be thought of as having three parts:
 3. Repository: where Git permanently stores those changes as different versions of the project
 
 The Git workflow consists of editing files in the working directory, adding files to the staging area, and saving changes to a Git repository.
+
+Basic Git commands
+•	git init
+  - creates a new Git repository
+•	git status
+  - inspects the contents of the working directory and staging area
+•	git add <filename>
+  - adds files from the working directory to the staging area
+•	git diff
+  - shows the difference between the working directory and the staging area
+•	git commit -m "<commit message>"
+  - permanently stores file changes from the staging area in the repository
+•	git log
+  - shows a list of all previous commits
